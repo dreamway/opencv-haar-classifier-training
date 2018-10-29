@@ -1,0 +1,1 @@
+opencv_traincascade -data trained_classifiers -vec samples.vec -bg negatives.txt -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -numPos 5000 -numNeg 7000 -w 40 -h 40 -mode ALL -precalcValBufSize 4096 -precalcIdxBufSize 4096
